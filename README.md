@@ -31,9 +31,9 @@ operations.
 | Model / Module | Python Inference | `.pt2` Export | MATLAB Load/Run | C++ Codegen | MEX | Current Status |
 |---|---:|---:|---:|---:|---:|---|
 | InternVL2.5 vision/projector | Yes | Yes | Yes | Yes | Yes | Successful submodule pipeline |
-| InternVL2.5 full VLM forward | Yes | No | Not reached | Not reached | Not reached | Blocked at Qwen2 decoder causal mask tracing |
-| Qwen2.5-VL-3B full VLM | Yes | No | Not reached | Not reached | Not reached | Blocked at vision window indexing and causal mask tracing |
-| SmolVLA | Yes | Yes | No | Not reached | Not reached | MATLAB rejects unsupported ops |
+| InternVL2.5 full VLM forward | Yes | No | Not reached | Yes | Not reached | Blocked at Qwen2 decoder causal mask tracing |
+| Qwen2.5-VL-3B full VLM | Yes | No | Not reached | Yes | Not reached | Blocked at vision window indexing and causal mask tracing |
+| SmolVLA | Yes | Yes | Yes | Not reached | Not reached | MATLAB rejects unsupported ops |
 
 ## 1. InternVL2.5 Vision/Projector
 
